@@ -1,6 +1,27 @@
 body{background-color: #F5F5F5;
-color: #40407A;}
+color: #40407A;
+font-family: Verdana, Arial, sans-serif;}
 
-header{background-color: #80CBC4;}
+header{background-color: #80CBC4;
+background-image: url(lilyheader.jpg);
+background-repeat:no-repeat ;
+background-position: right;}
 
-footer{background-color: #80CBC4;}
+nav{
+    font-style: bold;
+    text-align: center;
+}
+
+nav a{text-decoration: none;}
+
+h1{line-height: 400%;
+text-indent: 1em;}
+
+li{font-size: 90%;}
+
+dd{font-size: 90%;}
+
+footer{background-color: #80CBC4;
+    font-style:italic;
+    font-size: small;
+    text-align: center;}
